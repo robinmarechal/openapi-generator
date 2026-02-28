@@ -31,14 +31,14 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   HasOnlyReadOnly.JSON_PROPERTY_FOO
 })
 @JsonTypeName("hasOnlyReadOnly")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class HasOnlyReadOnly {
   public static final String JSON_PROPERTY_BAR = "bar";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String bar;
 
   public static final String JSON_PROPERTY_FOO = "foo";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String foo;
 
   public HasOnlyReadOnly() {
@@ -60,7 +60,7 @@ public class HasOnlyReadOnly {
    * Get bar
    * @return bar
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_BAR, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -74,7 +74,7 @@ public class HasOnlyReadOnly {
    * Get foo
    * @return foo
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_FOO, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

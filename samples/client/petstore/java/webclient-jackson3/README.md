@@ -1,4 +1,4 @@
-# petstore-webclient
+# petstore-webclient-jackson3
 
 OpenAPI Petstore
 
@@ -41,7 +41,7 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>org.openapitools</groupId>
-  <artifactId>petstore-webclient</artifactId>
+  <artifactId>petstore-webclient-jackson3</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
@@ -53,12 +53,12 @@ Add this dependency to your project's build file:
 
 ```groovy
   repositories {
-    mavenCentral()     // Needed if the 'petstore-webclient' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'petstore-webclient' jar has been published to the local maven repo.
+    mavenCentral()     // Needed if the 'petstore-webclient-jackson3' jar has been published to maven central.
+    mavenLocal()       // Needed if the 'petstore-webclient-jackson3' jar has been published to the local maven repo.
   }
 
   dependencies {
-     implementation "org.openapitools:petstore-webclient:1.0.0"
+     implementation "org.openapitools:petstore-webclient-jackson3:1.0.0"
   }
 ```
 
@@ -72,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-- `target/petstore-webclient-1.0.0.jar`
+- `target/petstore-webclient-jackson3-1.0.0.jar`
 - `target/lib/*.jar`
 
 ## Getting Started

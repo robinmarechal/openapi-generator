@@ -35,22 +35,22 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   Order.JSON_PROPERTY_STATUS,
   Order.JSON_PROPERTY_COMPLETE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class Order {
   public static final String JSON_PROPERTY_ID = "id";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Long id;
 
   public static final String JSON_PROPERTY_PET_ID = "petId";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Long petId;
 
   public static final String JSON_PROPERTY_QUANTITY = "quantity";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer quantity;
 
   public static final String JSON_PROPERTY_SHIP_DATE = "shipDate";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private OffsetDateTime shipDate;
 
   /**
@@ -91,17 +91,17 @@ public class Order {
   }
 
   public static final String JSON_PROPERTY_STATUS = "status";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private StatusEnum status;
 
   public static final String JSON_PROPERTY_COMPLETE = "complete";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean complete = false;
 
   public Order() {
   }
 
-  public Order id(@javax.annotation.Nullable Long id) {
+  public Order id(@jakarta.annotation.Nullable Long id) {
     
     this.id = id;
     return this;
@@ -111,7 +111,7 @@ public class Order {
    * Get id
    * @return id
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -122,11 +122,11 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setId(@javax.annotation.Nullable Long id) {
+  public void setId(@jakarta.annotation.Nullable Long id) {
     this.id = id;
   }
 
-  public Order petId(@javax.annotation.Nullable Long petId) {
+  public Order petId(@jakarta.annotation.Nullable Long petId) {
     
     this.petId = petId;
     return this;
@@ -136,7 +136,7 @@ public class Order {
    * Get petId
    * @return petId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_PET_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -147,11 +147,11 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_PET_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setPetId(@javax.annotation.Nullable Long petId) {
+  public void setPetId(@jakarta.annotation.Nullable Long petId) {
     this.petId = petId;
   }
 
-  public Order quantity(@javax.annotation.Nullable Integer quantity) {
+  public Order quantity(@jakarta.annotation.Nullable Integer quantity) {
     
     this.quantity = quantity;
     return this;
@@ -161,7 +161,7 @@ public class Order {
    * Get quantity
    * @return quantity
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_QUANTITY, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -172,11 +172,11 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_QUANTITY, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setQuantity(@javax.annotation.Nullable Integer quantity) {
+  public void setQuantity(@jakarta.annotation.Nullable Integer quantity) {
     this.quantity = quantity;
   }
 
-  public Order shipDate(@javax.annotation.Nullable OffsetDateTime shipDate) {
+  public Order shipDate(@jakarta.annotation.Nullable OffsetDateTime shipDate) {
     
     this.shipDate = shipDate;
     return this;
@@ -186,7 +186,7 @@ public class Order {
    * Get shipDate
    * @return shipDate
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_SHIP_DATE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -197,11 +197,11 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_SHIP_DATE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setShipDate(@javax.annotation.Nullable OffsetDateTime shipDate) {
+  public void setShipDate(@jakarta.annotation.Nullable OffsetDateTime shipDate) {
     this.shipDate = shipDate;
   }
 
-  public Order status(@javax.annotation.Nullable StatusEnum status) {
+  public Order status(@jakarta.annotation.Nullable StatusEnum status) {
     
     this.status = status;
     return this;
@@ -211,7 +211,7 @@ public class Order {
    * Order Status
    * @return status
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_STATUS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -222,11 +222,11 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_STATUS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setStatus(@javax.annotation.Nullable StatusEnum status) {
+  public void setStatus(@jakarta.annotation.Nullable StatusEnum status) {
     this.status = status;
   }
 
-  public Order complete(@javax.annotation.Nullable Boolean complete) {
+  public Order complete(@jakarta.annotation.Nullable Boolean complete) {
     
     this.complete = complete;
     return this;
@@ -236,7 +236,7 @@ public class Order {
    * Get complete
    * @return complete
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_COMPLETE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -247,7 +247,7 @@ public class Order {
 
   @JsonProperty(value = JSON_PROPERTY_COMPLETE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setComplete(@javax.annotation.Nullable Boolean complete) {
+  public void setComplete(@jakarta.annotation.Nullable Boolean complete) {
     this.complete = complete;
   }
 

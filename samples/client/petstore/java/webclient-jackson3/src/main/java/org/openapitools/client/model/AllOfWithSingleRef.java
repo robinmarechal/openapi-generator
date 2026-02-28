@@ -31,20 +31,20 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   AllOfWithSingleRef.JSON_PROPERTY_USERNAME,
   AllOfWithSingleRef.JSON_PROPERTY_SINGLE_REF_TYPE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class AllOfWithSingleRef {
   public static final String JSON_PROPERTY_USERNAME = "username";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String username;
 
   public static final String JSON_PROPERTY_SINGLE_REF_TYPE = "SingleRefType";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private SingleRefType singleRefType;
 
   public AllOfWithSingleRef() {
   }
 
-  public AllOfWithSingleRef username(@javax.annotation.Nullable String username) {
+  public AllOfWithSingleRef username(@jakarta.annotation.Nullable String username) {
     
     this.username = username;
     return this;
@@ -54,7 +54,7 @@ public class AllOfWithSingleRef {
    * Get username
    * @return username
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_USERNAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -65,11 +65,11 @@ public class AllOfWithSingleRef {
 
   @JsonProperty(value = JSON_PROPERTY_USERNAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setUsername(@javax.annotation.Nullable String username) {
+  public void setUsername(@jakarta.annotation.Nullable String username) {
     this.username = username;
   }
 
-  public AllOfWithSingleRef singleRefType(@javax.annotation.Nullable SingleRefType singleRefType) {
+  public AllOfWithSingleRef singleRefType(@jakarta.annotation.Nullable SingleRefType singleRefType) {
     
     this.singleRefType = singleRefType;
     return this;
@@ -79,7 +79,7 @@ public class AllOfWithSingleRef {
    * Get singleRefType
    * @return singleRefType
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_SINGLE_REF_TYPE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -90,7 +90,7 @@ public class AllOfWithSingleRef {
 
   @JsonProperty(value = JSON_PROPERTY_SINGLE_REF_TYPE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setSingleRefType(@javax.annotation.Nullable SingleRefType singleRefType) {
+  public void setSingleRefType(@jakarta.annotation.Nullable SingleRefType singleRefType) {
     this.singleRefType = singleRefType;
   }
 

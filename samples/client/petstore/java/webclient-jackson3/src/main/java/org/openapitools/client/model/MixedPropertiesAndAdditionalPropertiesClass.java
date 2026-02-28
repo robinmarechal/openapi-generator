@@ -36,24 +36,24 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MixedPropertiesAndAdditionalPropertiesClass.JSON_PROPERTY_DATE_TIME,
   MixedPropertiesAndAdditionalPropertiesClass.JSON_PROPERTY_MAP
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class MixedPropertiesAndAdditionalPropertiesClass {
   public static final String JSON_PROPERTY_UUID = "uuid";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private UUID uuid;
 
   public static final String JSON_PROPERTY_DATE_TIME = "dateTime";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private OffsetDateTime dateTime;
 
   public static final String JSON_PROPERTY_MAP = "map";
-  @javax.annotation.Nullable
-  private Map<String, Animal> map;
+  @jakarta.annotation.Nullable
+  private Map<String, Animal> map = new HashMap<>();
 
   public MixedPropertiesAndAdditionalPropertiesClass() {
   }
 
-  public MixedPropertiesAndAdditionalPropertiesClass uuid(@javax.annotation.Nullable UUID uuid) {
+  public MixedPropertiesAndAdditionalPropertiesClass uuid(@jakarta.annotation.Nullable UUID uuid) {
     
     this.uuid = uuid;
     return this;
@@ -63,7 +63,7 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
    * Get uuid
    * @return uuid
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_UUID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -74,11 +74,11 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
 
   @JsonProperty(value = JSON_PROPERTY_UUID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setUuid(@javax.annotation.Nullable UUID uuid) {
+  public void setUuid(@jakarta.annotation.Nullable UUID uuid) {
     this.uuid = uuid;
   }
 
-  public MixedPropertiesAndAdditionalPropertiesClass dateTime(@javax.annotation.Nullable OffsetDateTime dateTime) {
+  public MixedPropertiesAndAdditionalPropertiesClass dateTime(@jakarta.annotation.Nullable OffsetDateTime dateTime) {
     
     this.dateTime = dateTime;
     return this;
@@ -88,7 +88,7 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
    * Get dateTime
    * @return dateTime
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_DATE_TIME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -99,11 +99,11 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
 
   @JsonProperty(value = JSON_PROPERTY_DATE_TIME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setDateTime(@javax.annotation.Nullable OffsetDateTime dateTime) {
+  public void setDateTime(@jakarta.annotation.Nullable OffsetDateTime dateTime) {
     this.dateTime = dateTime;
   }
 
-  public MixedPropertiesAndAdditionalPropertiesClass map(@javax.annotation.Nullable Map<String, Animal> map) {
+  public MixedPropertiesAndAdditionalPropertiesClass map(@jakarta.annotation.Nullable Map<String, Animal> map) {
     
     this.map = map;
     return this;
@@ -121,7 +121,7 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
    * Get map
    * @return map
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_MAP, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -132,7 +132,7 @@ public class MixedPropertiesAndAdditionalPropertiesClass {
 
   @JsonProperty(value = JSON_PROPERTY_MAP, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setMap(@javax.annotation.Nullable Map<String, Animal> map) {
+  public void setMap(@jakarta.annotation.Nullable Map<String, Animal> map) {
     this.map = map;
   }
 

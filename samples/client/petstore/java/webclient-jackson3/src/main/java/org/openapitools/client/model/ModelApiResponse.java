@@ -32,24 +32,24 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ModelApiResponse.JSON_PROPERTY_MESSAGE
 })
 @JsonTypeName("ApiResponse")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class ModelApiResponse {
   public static final String JSON_PROPERTY_CODE = "code";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer code;
 
   public static final String JSON_PROPERTY_TYPE = "type";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String type;
 
   public static final String JSON_PROPERTY_MESSAGE = "message";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String message;
 
   public ModelApiResponse() {
   }
 
-  public ModelApiResponse code(@javax.annotation.Nullable Integer code) {
+  public ModelApiResponse code(@jakarta.annotation.Nullable Integer code) {
     
     this.code = code;
     return this;
@@ -59,7 +59,7 @@ public class ModelApiResponse {
    * Get code
    * @return code
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_CODE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -70,11 +70,11 @@ public class ModelApiResponse {
 
   @JsonProperty(value = JSON_PROPERTY_CODE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setCode(@javax.annotation.Nullable Integer code) {
+  public void setCode(@jakarta.annotation.Nullable Integer code) {
     this.code = code;
   }
 
-  public ModelApiResponse type(@javax.annotation.Nullable String type) {
+  public ModelApiResponse type(@jakarta.annotation.Nullable String type) {
     
     this.type = type;
     return this;
@@ -84,7 +84,7 @@ public class ModelApiResponse {
    * Get type
    * @return type
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_TYPE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -95,11 +95,11 @@ public class ModelApiResponse {
 
   @JsonProperty(value = JSON_PROPERTY_TYPE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setType(@javax.annotation.Nullable String type) {
+  public void setType(@jakarta.annotation.Nullable String type) {
     this.type = type;
   }
 
-  public ModelApiResponse message(@javax.annotation.Nullable String message) {
+  public ModelApiResponse message(@jakarta.annotation.Nullable String message) {
     
     this.message = message;
     return this;
@@ -109,7 +109,7 @@ public class ModelApiResponse {
    * Get message
    * @return message
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_MESSAGE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -120,7 +120,7 @@ public class ModelApiResponse {
 
   @JsonProperty(value = JSON_PROPERTY_MESSAGE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setMessage(@javax.annotation.Nullable String message) {
+  public void setMessage(@jakarta.annotation.Nullable String message) {
     this.message = message;
   }
 

@@ -30,16 +30,16 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   OuterObjectWithEnumProperty.JSON_PROPERTY_VALUE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class OuterObjectWithEnumProperty {
   public static final String JSON_PROPERTY_VALUE = "value";
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private OuterEnumInteger value;
 
   public OuterObjectWithEnumProperty() {
   }
 
-  public OuterObjectWithEnumProperty value(@javax.annotation.Nonnull OuterEnumInteger value) {
+  public OuterObjectWithEnumProperty value(@jakarta.annotation.Nonnull OuterEnumInteger value) {
     
     this.value = value;
     return this;
@@ -49,7 +49,7 @@ public class OuterObjectWithEnumProperty {
    * Get value
    * @return value
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @JsonProperty(value = JSON_PROPERTY_VALUE, required = true)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -60,7 +60,7 @@ public class OuterObjectWithEnumProperty {
 
   @JsonProperty(value = JSON_PROPERTY_VALUE, required = true)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public void setValue(@javax.annotation.Nonnull OuterEnumInteger value) {
+  public void setValue(@jakarta.annotation.Nonnull OuterEnumInteger value) {
     this.value = value;
   }
 

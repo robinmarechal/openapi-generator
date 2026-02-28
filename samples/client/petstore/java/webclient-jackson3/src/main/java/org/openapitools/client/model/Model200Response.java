@@ -31,20 +31,20 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   Model200Response.JSON_PROPERTY_PROPERTY_CLASS
 })
 @JsonTypeName("200_response")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class Model200Response {
   public static final String JSON_PROPERTY_NAME = "name";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer name;
 
   public static final String JSON_PROPERTY_PROPERTY_CLASS = "class";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String propertyClass;
 
   public Model200Response() {
   }
 
-  public Model200Response name(@javax.annotation.Nullable Integer name) {
+  public Model200Response name(@jakarta.annotation.Nullable Integer name) {
     
     this.name = name;
     return this;
@@ -54,7 +54,7 @@ public class Model200Response {
    * Get name
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -65,11 +65,11 @@ public class Model200Response {
 
   @JsonProperty(value = JSON_PROPERTY_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setName(@javax.annotation.Nullable Integer name) {
+  public void setName(@jakarta.annotation.Nullable Integer name) {
     this.name = name;
   }
 
-  public Model200Response propertyClass(@javax.annotation.Nullable String propertyClass) {
+  public Model200Response propertyClass(@jakarta.annotation.Nullable String propertyClass) {
     
     this.propertyClass = propertyClass;
     return this;
@@ -79,7 +79,7 @@ public class Model200Response {
    * Get propertyClass
    * @return propertyClass
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_PROPERTY_CLASS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -90,7 +90,7 @@ public class Model200Response {
 
   @JsonProperty(value = JSON_PROPERTY_PROPERTY_CLASS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setPropertyClass(@javax.annotation.Nullable String propertyClass) {
+  public void setPropertyClass(@jakarta.annotation.Nullable String propertyClass) {
     this.propertyClass = propertyClass;
   }
 

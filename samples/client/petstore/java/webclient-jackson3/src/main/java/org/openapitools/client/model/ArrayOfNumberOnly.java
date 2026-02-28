@@ -33,16 +33,16 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   ArrayOfNumberOnly.JSON_PROPERTY_ARRAY_NUMBER
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class ArrayOfNumberOnly {
   public static final String JSON_PROPERTY_ARRAY_NUMBER = "ArrayNumber";
-  @javax.annotation.Nullable
-  private List<BigDecimal> arrayNumber;
+  @jakarta.annotation.Nullable
+  private List<BigDecimal> arrayNumber = new ArrayList<>();
 
   public ArrayOfNumberOnly() {
   }
 
-  public ArrayOfNumberOnly arrayNumber(@javax.annotation.Nullable List<BigDecimal> arrayNumber) {
+  public ArrayOfNumberOnly arrayNumber(@jakarta.annotation.Nullable List<BigDecimal> arrayNumber) {
     
     this.arrayNumber = arrayNumber;
     return this;
@@ -60,7 +60,7 @@ public class ArrayOfNumberOnly {
    * Get arrayNumber
    * @return arrayNumber
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_ARRAY_NUMBER, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -71,7 +71,7 @@ public class ArrayOfNumberOnly {
 
   @JsonProperty(value = JSON_PROPERTY_ARRAY_NUMBER, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setArrayNumber(@javax.annotation.Nullable List<BigDecimal> arrayNumber) {
+  public void setArrayNumber(@jakarta.annotation.Nullable List<BigDecimal> arrayNumber) {
     this.arrayNumber = arrayNumber;
   }
 

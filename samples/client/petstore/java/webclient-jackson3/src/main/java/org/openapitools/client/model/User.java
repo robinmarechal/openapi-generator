@@ -36,44 +36,44 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   User.JSON_PROPERTY_PHONE,
   User.JSON_PROPERTY_USER_STATUS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class User {
   public static final String JSON_PROPERTY_ID = "id";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Long id;
 
   public static final String JSON_PROPERTY_USERNAME = "username";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String username;
 
   public static final String JSON_PROPERTY_FIRST_NAME = "firstName";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String firstName;
 
   public static final String JSON_PROPERTY_LAST_NAME = "lastName";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String lastName;
 
   public static final String JSON_PROPERTY_EMAIL = "email";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String email;
 
   public static final String JSON_PROPERTY_PASSWORD = "password";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String password;
 
   public static final String JSON_PROPERTY_PHONE = "phone";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String phone;
 
   public static final String JSON_PROPERTY_USER_STATUS = "userStatus";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer userStatus;
 
   public User() {
   }
 
-  public User id(@javax.annotation.Nullable Long id) {
+  public User id(@jakarta.annotation.Nullable Long id) {
     
     this.id = id;
     return this;
@@ -83,7 +83,7 @@ public class User {
    * Get id
    * @return id
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -94,11 +94,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setId(@javax.annotation.Nullable Long id) {
+  public void setId(@jakarta.annotation.Nullable Long id) {
     this.id = id;
   }
 
-  public User username(@javax.annotation.Nullable String username) {
+  public User username(@jakarta.annotation.Nullable String username) {
     
     this.username = username;
     return this;
@@ -108,7 +108,7 @@ public class User {
    * Get username
    * @return username
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_USERNAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -119,11 +119,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_USERNAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setUsername(@javax.annotation.Nullable String username) {
+  public void setUsername(@jakarta.annotation.Nullable String username) {
     this.username = username;
   }
 
-  public User firstName(@javax.annotation.Nullable String firstName) {
+  public User firstName(@jakarta.annotation.Nullable String firstName) {
     
     this.firstName = firstName;
     return this;
@@ -133,7 +133,7 @@ public class User {
    * Get firstName
    * @return firstName
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_FIRST_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -144,11 +144,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_FIRST_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setFirstName(@javax.annotation.Nullable String firstName) {
+  public void setFirstName(@jakarta.annotation.Nullable String firstName) {
     this.firstName = firstName;
   }
 
-  public User lastName(@javax.annotation.Nullable String lastName) {
+  public User lastName(@jakarta.annotation.Nullable String lastName) {
     
     this.lastName = lastName;
     return this;
@@ -158,7 +158,7 @@ public class User {
    * Get lastName
    * @return lastName
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_LAST_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -169,11 +169,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_LAST_NAME, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setLastName(@javax.annotation.Nullable String lastName) {
+  public void setLastName(@jakarta.annotation.Nullable String lastName) {
     this.lastName = lastName;
   }
 
-  public User email(@javax.annotation.Nullable String email) {
+  public User email(@jakarta.annotation.Nullable String email) {
     
     this.email = email;
     return this;
@@ -183,7 +183,7 @@ public class User {
    * Get email
    * @return email
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_EMAIL, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -194,11 +194,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_EMAIL, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setEmail(@javax.annotation.Nullable String email) {
+  public void setEmail(@jakarta.annotation.Nullable String email) {
     this.email = email;
   }
 
-  public User password(@javax.annotation.Nullable String password) {
+  public User password(@jakarta.annotation.Nullable String password) {
     
     this.password = password;
     return this;
@@ -208,7 +208,7 @@ public class User {
    * Get password
    * @return password
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_PASSWORD, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -219,11 +219,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_PASSWORD, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setPassword(@javax.annotation.Nullable String password) {
+  public void setPassword(@jakarta.annotation.Nullable String password) {
     this.password = password;
   }
 
-  public User phone(@javax.annotation.Nullable String phone) {
+  public User phone(@jakarta.annotation.Nullable String phone) {
     
     this.phone = phone;
     return this;
@@ -233,7 +233,7 @@ public class User {
    * Get phone
    * @return phone
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_PHONE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -244,11 +244,11 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_PHONE, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setPhone(@javax.annotation.Nullable String phone) {
+  public void setPhone(@jakarta.annotation.Nullable String phone) {
     this.phone = phone;
   }
 
-  public User userStatus(@javax.annotation.Nullable Integer userStatus) {
+  public User userStatus(@jakarta.annotation.Nullable Integer userStatus) {
     
     this.userStatus = userStatus;
     return this;
@@ -258,7 +258,7 @@ public class User {
    * User Status
    * @return userStatus
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_USER_STATUS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -269,7 +269,7 @@ public class User {
 
   @JsonProperty(value = JSON_PROPERTY_USER_STATUS, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setUserStatus(@javax.annotation.Nullable Integer userStatus) {
+  public void setUserStatus(@jakarta.annotation.Nullable Integer userStatus) {
     this.userStatus = userStatus;
   }
 

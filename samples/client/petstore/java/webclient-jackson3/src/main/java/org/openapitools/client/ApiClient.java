@@ -70,7 +70,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TimeZone;
 
-import javax.annotation.Nullable;
+import jakarta.annotation.Nullable;
 
 import java.time.OffsetDateTime;
 
@@ -80,7 +80,7 @@ import org.openapitools.client.auth.HttpBearerAuth;
 import org.openapitools.client.auth.ApiKeyAuth;
 import org.openapitools.client.auth.OAuth;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class ApiClient extends JavaTimeFormatter {
     public enum CollectionFormat {
         CSV(","), TSV("\t"), SSV(" "), PIPES("|"), MULTI(null);
@@ -149,7 +149,7 @@ public class ApiClient extends JavaTimeFormatter {
             .builder()
             .setDateFormat(dateFormat)
             .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-            .addModule(new JsonNullableModule())
+            .addModule(new JsonNullableJackson3Module())
             .build();
     }
 
@@ -174,8 +174,8 @@ public class ApiClient extends JavaTimeFormatter {
         ExchangeStrategies strategies = ExchangeStrategies
             .builder()
             .codecs(clientDefaultCodecsConfigurer -> {
-                clientDefaultCodecsConfigurer.defaultCodecs().jacksonJsonEncoder(new JacksonJsonEncoder(mapper, MediaType.APPLICATION_JSON));
-                clientDefaultCodecsConfigurer.defaultCodecs().jacksonJsonDecoder(new JacksonJsonDecoder(mapper, MediaType.APPLICATION_JSON));
+                clientDefaultCodecsConfigurer.defaultCodecs().jacksonJsonEncoder(new JacksonJsonEncoder(mapper));
+                clientDefaultCodecsConfigurer.defaultCodecs().jacksonJsonDecoder(new JacksonJsonDecoder(mapper));
             }).build();
         WebClient.Builder webClientBuilder = WebClient.builder().exchangeStrategies(strategies);
         return webClientBuilder;
@@ -713,7 +713,7 @@ public class ApiClient extends JavaTimeFormatter {
      * @param requestBuilder The current request
      */
     protected void addHeadersToRequest(HttpHeaders headers, WebClient.RequestBodySpec requestBuilder) {
-        for (Entry<String, List<String>> entry : headers.entrySet()) {
+        for (Entry<String, List<String>> entry : headers.headerSet()) {
             List<String> values = entry.getValue();
             for(String value : values) {
                 if (value != null) {

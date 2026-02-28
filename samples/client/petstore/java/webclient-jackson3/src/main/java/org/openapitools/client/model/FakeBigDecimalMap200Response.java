@@ -34,20 +34,20 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FakeBigDecimalMap200Response.JSON_PROPERTY_SOME_MAP
 })
 @JsonTypeName("fakeBigDecimalMap_200_response")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class FakeBigDecimalMap200Response {
   public static final String JSON_PROPERTY_SOME_ID = "someId";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal someId;
 
   public static final String JSON_PROPERTY_SOME_MAP = "someMap";
-  @javax.annotation.Nullable
-  private Map<String, BigDecimal> someMap;
+  @jakarta.annotation.Nullable
+  private Map<String, BigDecimal> someMap = new HashMap<>();
 
   public FakeBigDecimalMap200Response() {
   }
 
-  public FakeBigDecimalMap200Response someId(@javax.annotation.Nullable BigDecimal someId) {
+  public FakeBigDecimalMap200Response someId(@jakarta.annotation.Nullable BigDecimal someId) {
     
     this.someId = someId;
     return this;
@@ -57,7 +57,7 @@ public class FakeBigDecimalMap200Response {
    * Get someId
    * @return someId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_SOME_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -68,11 +68,11 @@ public class FakeBigDecimalMap200Response {
 
   @JsonProperty(value = JSON_PROPERTY_SOME_ID, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setSomeId(@javax.annotation.Nullable BigDecimal someId) {
+  public void setSomeId(@jakarta.annotation.Nullable BigDecimal someId) {
     this.someId = someId;
   }
 
-  public FakeBigDecimalMap200Response someMap(@javax.annotation.Nullable Map<String, BigDecimal> someMap) {
+  public FakeBigDecimalMap200Response someMap(@jakarta.annotation.Nullable Map<String, BigDecimal> someMap) {
     
     this.someMap = someMap;
     return this;
@@ -90,7 +90,7 @@ public class FakeBigDecimalMap200Response {
    * Get someMap
    * @return someMap
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_SOME_MAP, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -101,7 +101,7 @@ public class FakeBigDecimalMap200Response {
 
   @JsonProperty(value = JSON_PROPERTY_SOME_MAP, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setSomeMap(@javax.annotation.Nullable Map<String, BigDecimal> someMap) {
+  public void setSomeMap(@jakarta.annotation.Nullable Map<String, BigDecimal> someMap) {
     this.someMap = someMap;
   }
 

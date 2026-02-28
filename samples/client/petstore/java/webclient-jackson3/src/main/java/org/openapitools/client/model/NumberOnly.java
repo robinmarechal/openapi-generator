@@ -30,16 +30,16 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @JsonPropertyOrder({
   NumberOnly.JSON_PROPERTY_JUST_NUMBER
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.21.0-SNAPSHOT")
 public class NumberOnly {
   public static final String JSON_PROPERTY_JUST_NUMBER = "JustNumber";
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal justNumber;
 
   public NumberOnly() {
   }
 
-  public NumberOnly justNumber(@javax.annotation.Nullable BigDecimal justNumber) {
+  public NumberOnly justNumber(@jakarta.annotation.Nullable BigDecimal justNumber) {
     
     this.justNumber = justNumber;
     return this;
@@ -49,7 +49,7 @@ public class NumberOnly {
    * Get justNumber
    * @return justNumber
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(value = JSON_PROPERTY_JUST_NUMBER, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -60,7 +60,7 @@ public class NumberOnly {
 
   @JsonProperty(value = JSON_PROPERTY_JUST_NUMBER, required = false)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setJustNumber(@javax.annotation.Nullable BigDecimal justNumber) {
+  public void setJustNumber(@jakarta.annotation.Nullable BigDecimal justNumber) {
     this.justNumber = justNumber;
   }
 
